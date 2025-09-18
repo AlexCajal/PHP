@@ -6,7 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-
+    <?php
+        include "form.php";
+        echo "<br>";
+    ?>
     <?php include "clases.php";
         $inicio = new Noticia("Inicio de curso","2025/9/11");
         $titulo2 = new Noticia("Titulo2","2025/09/01");

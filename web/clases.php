@@ -16,7 +16,7 @@
                 $this->fecha = $fecha;
             }
             function pintarNoticia(){
-                echo $this->nombre."--".$this->fecha;
+                echo '<a href="vista.php?titulo='.$this->nombre.'">'.$this->nombre."--".$this->fecha."<a>";
             }
             function getname(){
                return $this->nombre; 
