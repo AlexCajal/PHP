@@ -21,12 +21,6 @@
             function getname(){
                return $this->nombre; 
             }
-            function setname($nom){
-                $this->nombre = $nom; 
-            }
-            function setfecha($fech){
-                $this->fecha = $fech; 
-            }
         }
     ?>
 </body>

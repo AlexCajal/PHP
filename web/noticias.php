@@ -29,11 +29,6 @@
         }
         
     ?>
-
-    <form action="noticias.php" method="get">
-    <input type="text" name="titulo"> 
-    <input type="submit" value="buscar">
-
 </body>
 </html>
 
