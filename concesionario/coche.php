@@ -1,9 +1,9 @@
 <?php
-    class coche{
-        private $matricula;
-        private $marca;
-        private $modelo;
-        private $km;
+    class Coche{
+        public $matricula;
+        public $marca;
+        public $modelo;
+        public $km;
 
         function __construct($matricula, $marca, $modelo, $km){
             $this->matricula = $matricula;

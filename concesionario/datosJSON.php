@@ -1,2 +1,6 @@
 <?php
-    echo json_encode($datos);
+    include "infoCoches.php";
+    
+    echo json_encode($listacoches);
+    
+?>

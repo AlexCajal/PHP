@@ -7,7 +7,13 @@
 </head>
 <body>
     <h1>Concesionario pirámide</h1>
-    <p><a href ="lista.php">Coches</a><a href="datos.php">  Nuevo</a></p>
+    <p>
+        <a href ="lista.php">COCHES</a>
+        <a href="datos.php">  NUEVO </a>
+        <?php
+        echo '<a href="datosJSON.php">  INFO</a>';
+        ?>
+    </p>
     
     <form action="lista.php" method="get">
     <input type="text" name="matric" placeholder="Introduce la matricula"> 
