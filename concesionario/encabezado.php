@@ -9,10 +9,8 @@
     <h1>Concesionario pirámide</h1>
     <p>
         <a href ="lista.php">COCHES</a>
-        <a href="datos.php">  NUEVO </a>
-        <?php
-        echo '<a href="datosJSON.php">  INFO</a>';
-        ?>
+        <a href="datos.php"> NUEVO </a>
+        <a href="datosJSON.php"> INFO</a>
     </p>
     
     <form action="lista.php" method="get">

@@ -8,16 +8,14 @@
 <body>
     <?php 
 
-        $mat = $_POST["matricula"];
-        $mar = $_POST["marca"];
-        $mod = $_POST["modelo"];
-        $km = $_POST["km"];
-
         include_once "encabezado.php";
         include_once "coche.php";
         include_once "infoCoches.php";
 
-        
+        $mat = $_POST["matricula"];
+        $mar = $_POST["marca"];
+        $mod = $_POST["modelo"];
+        $km = $_POST["km"];
        
         $cocheAniadido = new Coche($mat,$mar,$mod,$km);
          
