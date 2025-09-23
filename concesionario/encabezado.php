@@ -10,7 +10,7 @@
     <p>
         <a href ="lista.php">COCHES</a>
         <a href="datos.php"> NUEVO </a>
-        <a href="datosJSON.php"> INFO</a>
+        <
     </p>
     
     <form action="lista.php" method="get">

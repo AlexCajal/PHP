@@ -8,7 +8,7 @@
 <body>
     <?php include "encabezado.php"; ?>
 
-    <form action="lista.php" method="POST">
+    <form action="InsertCoche.php" method="POST">
         <p>Matrícula : <input type="" name="matricula"></p>
         <p>Marca : <input type="text" name="marca"></p>
         <p>Modelo : <input type="text" name="modelo"></p>

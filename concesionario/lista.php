@@ -8,20 +8,11 @@
 <body>
     <?php 
 
-        include_once "encabezado.php";
-        include_once "coche.php";
-        include_once "infoCoches.php";
+        include "encabezado.php";
+        include "coche.php";
+        include "getCoches.php";
 
-        $mat = $_POST["matricula"];
-        $mar = $_POST["marca"];
-        $mod = $_POST["modelo"];
-        $km = $_POST["km"];
-       
-        $cocheAniadido = new Coche($mat,$mar,$mod,$km);
-         
-        if ($mat != null){
-            array_push($listacoches, $cocheAniadido);
-        }
+        $listacoches = SacarCoches();        
 
         $buscador = $_GET["matric"];
         echo '<ul>';
